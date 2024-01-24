@@ -18,18 +18,18 @@ export default class News extends Component {
     category: PropTypes.string
   }
 
-  constructor(){
-    super();
+  capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  constructor(props){
+    super(props);
     this.state = {
       articles : [],
       loading : false,
       page : 1
     }
-    
-  }
-
-  async componentDidMount(){
-   this.updateNews();
+    document.title = `NewsMonkey - ${this.capitalizeFirstLetter(this.props.category)}`;
   }
 
   async updateNews(){
@@ -40,6 +40,11 @@ export default class News extends Component {
     console.log(parsedData);
     this.setState({articles : parsedData.articles, totalResults : parsedData.totalResults, loading : false});
   }
+
+  async componentDidMount(){
+   this.updateNews();
+  }
+
 
   handlePrevClick = async () => {
     this.setState({page: this.state.page - 1});
@@ -53,9 +58,9 @@ export default class News extends Component {
     }
   
  render() {
-    return (
-      <div className='container my-3 bg-secondary-subtle rounded'>
-              <h1 className='pt-2'>NewsMonkey - Top Headlines</h1>
+  return (
+     <div className='container my-3 bg-secondary-subtle rounded'>
+              <h1 className='pt-2'>NewsMonkey - Top Headlines On {this.capitalizeFirstLetter(this.props.category)}</h1>
               <hr />
               {this.state.loading && <Spinner/>}
               <div className="row">
