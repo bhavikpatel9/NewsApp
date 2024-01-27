@@ -1,0 +1,32 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Business Standard"
+        },
+        "author": "Press Trust of India",
+        "title": "Nasa spacecraft successfully 'pings' Chandrayaan-3 Vikram lander on Moon - Business Standard",
+        "description": "Laser instrument onboard a NASA spacecraft orbiting the Moon has successfully pinged the Vikram lander of India's Chandrayaan-3 mission, the US space agency said.",
+        "url": "https://www.business-standard.com/world-news/nasa-spacecraft-successfully-pings-chandrayaan-3-vikram-lander-on-moon-124012200445_1.html",
+        "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-09/04/full/1693815979-933.png",
+        "publishedAt": "2024-01-22T10:15:50Z",
+        "content": "The lander was 100 kilometers away from LRO, near Manzinus crater in the Moon's south pole region, when LRO transmitted laser pulses toward it on December 12 last year\r\nVikram Lander (Photo: Twitter/… [+3240 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hindustan Times"
+        },
+        "author": "HT Entertainment Desk",
+        "title": "Kangana Ranaut chants ‘Jai Shri Ram’ at Ram Mandir ceremony; jumps in joy - Hindustan Times",
+        "description": "Kangana Ranaut had reached Ayodhya two days before the Ram Mandir Pran Pratishtha and spent her time in the company of saints. | Bollywood",
+        "url": "https://www.hindustantimes.com/entertainment/bollywood/kangana-ranaut-chants-jai-shri-ram-ram-mandir-pran-pratishtha-video-101705914989891.html",
+        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/01/22/1600x900/kangana_ranaut_1705916913086_1705916913344.jpg",
+        "publishedAt": "2024-01-22T10:15:41Z",
+        "content": "Kangana Ranaut didn't hide her excitement and was screaming out loud Jai Shri Ram chants as she attended the Ram Mandir Pran Pratishtha ceremony in Ayodhya on Monday. She even shared a video of her c… [+2448 chars]"
+      }
+    ]
+  }

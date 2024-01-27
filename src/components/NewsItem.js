@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import imgNotfound from './image-not-found.png'
 
-export default class NewsItem extends Component {
-  render() {
-    let {title,description,imageUrl,newsUrl,author,date,name} = this.props;
+const NewsItem = (props)=> {
+    let {title,description,imageUrl,newsUrl,author,date,name} = props;
     return (
       <div>
         <div className="card my-2">
@@ -21,4 +20,5 @@ export default class NewsItem extends Component {
       </div>
     )
   }
-}
+
+export default NewsItem
