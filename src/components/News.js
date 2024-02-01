@@ -50,7 +50,6 @@ import InfiniteScroll from "react-infinite-scroll-component";
   return (
      <>
               <h1 className='pt-2 text-center'>NewsMonkey - Top Headlines On {capitalizeFirstLetter(props.category)}</h1>
-              <hr />
               
               {loading && <Spinner/>}
 
@@ -65,7 +64,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
                           {
                             articles.map((element,index)=>{
                                 return   <div className='col-md-4' key={index}>
-                                            <NewsItem title={element.title} description={element.description} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} name={element.source.name}/>            
+                                            <NewsItem title={element.title} description={element.description?element.description:''} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} name={element.source.name}/>            
                                         </div>
                             })
                           }
