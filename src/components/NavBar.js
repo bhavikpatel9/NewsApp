@@ -18,10 +18,10 @@ const NavBar = ()=> {
                               </li>
                               
                               <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
                               <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
                               <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
+                              <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+                              <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
                               {/* <li className="nav-item"><Link className="nav-link" to="/about">about</Link></li> */}
                             </ul>
                             
